@@ -342,14 +342,13 @@ select {
 .footer-container {
     height: 213px;
     width: 1440px;
-    border:1px solid red;
-    width: 1440px;
-  
+
+
     /* margin: 0 auto; */
 
 }
 
-.footer-detail{
+.footer-detail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,7 +508,7 @@ select {
 
     #higlights-banner {
         background-color: #FFFFFF;
-       
+
     }
 
     #highlights-heading {
@@ -670,20 +669,20 @@ select {
 
 
     /* footer start */
-   
+
 
     .footer-container {
         height: 213px;
         width: 688px;
         padding: 50px 0;
         margin-bottom: 50px;
-       
+
     }
 
     .footer-logo img {
         height: 229.9px;
         width: 400.87px;
-       
+
     }
 
     .footer-text p i {
