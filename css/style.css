@@ -9,6 +9,7 @@
 /* common utilities */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
 }
 
 /* banner start  */
@@ -29,13 +30,15 @@ body {
     flex-wrap: wrap; */
     display: grid;
     grid-template-columns: 571.505px 571.505px;
+    justify-content: center;
+    margin-left: 50px;
 
 }
 
 .banner-text {
-    margin-top: 207px;
-    /* margin-left: 156px; */
-    margin-right: 102px;
+
+    width: 485px;
+    /* margin-right: 102px; */
 }
 
 .similar-heading {
@@ -48,11 +51,15 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 64px;
-    width: 485px;
+    margin-top: 207px;
 
     /* height: 230px; */
 }
 
+.similar-button {
+    height: 44px;
+    width: 168px;
+}
 
 .similar-button button {
     background-color: #E02C6D;
@@ -62,6 +69,7 @@ body {
     padding: 10px 24px;
     border: none;
     margin-top: 37px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -73,12 +81,14 @@ body {
 
 .banner-img {
     position: relative;
+
 }
 
 .banner-img img {
     width: 556.01px;
     height: 438px;
     margin-top: 153px;
+    margin-left: 15.5px;
 }
 
 .banner-image-text {
@@ -97,7 +107,7 @@ body {
     font-size: 40px;
     text-align: center;
     background-image: linear-gradient(rgba(255, 0, 0, 0.605), rgba(0, 0, 255, 0.315));
-    background-color: linear-gr;
+    border-radius: 10px;
 
 
 }
@@ -108,5 +118,86 @@ body {
 
 }
 
-
 /* banner end  */
+
+/* player profile start */
+.player-profile {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players {
+    display: grid;
+    width: 1050px;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(3, 330px);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+
+.single-player {
+    min-height: 474px;
+    width: 300px;
+    /* border: 1px solid gray; */
+    padding: 15px;
+    box-shadow: 1px 5px 38px -28px;
+
+
+}
+
+.player-photo img {
+    height: 256px;
+    width: 300px;
+
+
+}
+
+
+.player-detail h3 {
+    color: #18191F;
+    font-size: 28px;
+    padding: 16px 0px 10px 0px;
+}
+
+.player-detail p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+
+
+
+/* player profile end */
+
+#higlights-banner {
+    background-color: #FFFFFF;
+}
+
+#highlights-heading {
+    font-size: 48px;
+    color: #0A0826;
+    /* margin-top: 0; */
+}
+
+#highlights-text {
+    line-height: 28px;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 8px;
+
+}
+
+#highlights-img img {
+    height: 427px;
+    width: 567px;
+    margin-top: 165px;
+
+}
