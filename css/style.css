@@ -42,11 +42,6 @@ body {
     /* margin-right: 102px; */
 }
 
-.similar-heading {
-    /* width: 485px;
-    height: 230px; */
-
-}
 
 .similar-heading h1 {
     color: #FFFFFF;
@@ -307,6 +302,11 @@ body {
 
 }
 
+.buy-tutorial iframe {
+    width: 500px;
+    height: 430px;
+}
+
 label {
     font-size: 20px;
     font-weight: 700;
@@ -386,10 +386,25 @@ select {
         Media Query
 -------------------------------------------*/
 
+/* for large device >1440px */
+/* 
+@media only screen and (max-width:2560px) {
+
+    .banner-container,
+    .player-profile,
+    .footer-container {
+        width: 100%;
+    }
+
+
+
+
+
+} */
+
 
 /* For small Device (ex: mobile)*/
 @media only screen and (max-width:688px) {
-
 
     /* banner start  */
     .banner-container {
@@ -705,7 +720,6 @@ select {
     }
 
     /* footer end */
-
 
 
 
